@@ -26,6 +26,17 @@ function resumeHandler() {
         console.log(chalk.redBright.italic(content))
       );
       console.log(resumeContextColor("___________________________________"));
+      inquirer
+        .prompt({
+          type: "list",
+          message: "Go Back or Exit...",
+          name: "returnOption",
+          choices: ["Back", "Exit"]
+        })
+        .then(({ returnOption }) => {
+          if (returnOption === "Exit") return;
+          resumeHandler();
+        });
     });
 }
 
