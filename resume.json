@@ -1,0 +1,31 @@
+{
+  "Education": ["B.Tech in Computer Science from Delhi University"],
+  "Professional Experience": [
+    "September 2018 - Present: Web Developer at Wesence Solution",
+    "July 2015 - Front End Developer at NDMC (internship)"
+  ],
+  "Technologies": [
+    "JavaScript",
+    "HTML",
+    "CSS/SCSS",
+    "React",
+    "Node",
+    "Jira",
+    "Basic Jest testing"
+  ],
+  "Projects": [
+    "Burger App = using React, Redux, Firebase",
+    "Doc Creator = using React, Redux, Firebase",
+    "Multiple Game = using socket.io, Node.js",
+    "JavaScript Snippet =  VsCode Extension"
+  ],
+  "Personal Interests": ["Reading", "Travelling", "Signing to music"],
+  "Handler": "jscodelover",
+  "Contacts and Social Media": [
+    "GitHub: https://github.com/jscodelover",
+    "Codepen: https://codepen.io/jscodelover",
+    "LinkedIn: https://www.linkedin.com/in/jscodelover/",
+    "Instagram: https://www.instagram.com/mani_basra_18/",
+    "Twitter: https://twitter.com/jscodelover"
+  ]
+}
