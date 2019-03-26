@@ -20,7 +20,7 @@
     "JavaScript Snippet =  VsCode Extension"
   ],
   "Personal Interests": ["Reading", "Travelling", "Signing to music"],
-  "Handler": "jscodelover",
+  "Handler": ["jscodelover"],
   "Contacts and Social Media": [
     "GitHub: https://github.com/jscodelover",
     "Codepen: https://codepen.io/jscodelover",

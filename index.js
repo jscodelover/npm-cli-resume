@@ -25,7 +25,12 @@ function resumeHandler() {
       resume[`${resumeField}`].forEach(content =>
         console.log(chalk.redBright.italic(content))
       );
-      console.log(resumeContextColor("___________________________________"));
+      console.log(
+        resumeContextColor(
+          "________________________________________________________"
+        )
+      );
+      console.log();
       inquirer
         .prompt({
           type: "list",
