@@ -17,7 +17,8 @@
     "Burger App = using React, Redux, Firebase",
     "Doc Creator = using React, Redux, Firebase",
     "Multiple Game = using socket.io, Node.js",
-    "JavaScript Snippet =  VsCode Extension"
+    "JavaScript Snippet =  VsCode Extension",
+    "Dev Desk = chatting app like slack for devs"
   ],
   "Personal Interests": ["Reading", "Travelling", "Signing to music"],
   "Handler": ["jscodelover"],
