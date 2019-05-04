@@ -1,12 +1,14 @@
 const inquirer = require("inquirer");
 const chalk = require("chalk");
 const resume = require("./resume.json");
+const welcome = require("./welcome");
 
 const resumeContextColor = chalk.bold.blueBright;
 const responseFieldColor = chalk.bold.magentaBright;
 const WelcomeMessage = "Hey developer, Welcome to my resume !!!!";
 
 function main() {
+  welcome();
   console.log(`\n ${resumeContextColor(WelcomeMessage)}\n`);
   resumeHandler();
 }
