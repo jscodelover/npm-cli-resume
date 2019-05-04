@@ -2,12 +2,12 @@ const inquirer = require("inquirer");
 const chalk = require("chalk");
 const resume = require("./resume.json");
 
-const resumeContextColor = chalk.bold.whiteBright;
+const resumeContextColor = chalk.bold.blueBright;
 const responseFieldColor = chalk.bold.magentaBright;
 const WelcomeMessage = "Hey developer, Welcome to my resume !!!!";
 
 function main() {
-  console.log(resumeContextColor(WelcomeMessage));
+  console.log(`\n ${resumeContextColor(WelcomeMessage)}\n`);
   resumeHandler();
 }
 
@@ -20,9 +20,11 @@ function resumeHandler() {
       choices: [...Object.keys(resume), "Exit"]
     })
     .then(({ resumeField }) => {
-      if (resumeField === "Exit") return;
-      console.log(" ");
-      console.log(responseFieldColor(`${resumeField} :- `));
+      if (resumeField === "Exit") {
+        console.log(chalk.red("\nSee you soon!!"));
+        return;
+      }
+      console.log("\n" + responseFieldColor(`${resumeField} :- `));
       resume[`${resumeField}`].forEach(content =>
         console.log(chalk.yellow.italic(content))
       );
