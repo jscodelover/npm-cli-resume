@@ -1,5 +1,7 @@
 {
-  "Education": ["B.Tech in Computer Science from Delhi University"],
+  "About Me": [
+    "Hello!! I am Manisha (jscodelover) from India. I am working as front-end developer. I have less than 1 year of experience in the UI domain. Techstack I am working on is - HTML5, CSS3, JavaScript, Reactjs, Redux, Redux-Saga, and I also write blog on medium.com."
+  ],
   "Professional Experience": [
     "September 2018 - Present: Web Developer at Wesence Solution",
     "July 2015 - Front End Developer at NDMC (internship)"
@@ -14,19 +16,20 @@
     "Basic Jest testing"
   ],
   "Projects": [
+    "JavaScript Snippet =  VsCode Extension",
+    "Dev Desk = Chatting platform",
+    "Table-pagination = using react, redux, react-router-dom",
+    "Cli Resume = desrcibing about me",
     "Burger App = using React, Redux, Firebase",
     "Doc Creator = using React, Redux, Firebase",
-    "Multiple Game = using socket.io, Node.js",
-    "JavaScript Snippet =  VsCode Extension",
-    "Dev Desk = chatting app like slack for devs"
+    "Multiple Game = using socket.io, Node.js"
   ],
   "Personal Interests": ["Reading", "Travelling", "Signing to music"],
-  "Handler": ["jscodelover"],
-  "Contacts and Social Media": [
+  "Contacts Me": [
     "GitHub: https://github.com/jscodelover",
     "Codepen: https://codepen.io/jscodelover",
     "LinkedIn: https://www.linkedin.com/in/jscodelover/",
-    "Instagram: https://www.instagram.com/mani_basra_18/",
+    "Medium: https://medium.com/@jscodelover",
     "Twitter: https://twitter.com/jscodelover"
   ]
 }
