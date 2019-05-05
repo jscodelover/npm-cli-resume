@@ -1,5 +1,4 @@
-/* eslint-disable node/prefer-global/console */
-/* eslint-disable no-console */
+#!/usr/bin/env node
 const inquirer = require("inquirer");
 const chalk = require("chalk");
 const terminalLink = require("terminal-link");
