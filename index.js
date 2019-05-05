@@ -5,7 +5,6 @@ const resume = require("./data/resume.json");
 const welcome = require("./welcome");
 const animation = require("./animation");
 
-const resumeContextColor = chalk.bold.underline.blueBright;
 const responseFieldColor = chalk.bold.magentaBright;
 const WelcomeMessage = "Hey developer, Welcome to my resume !!!!";
 

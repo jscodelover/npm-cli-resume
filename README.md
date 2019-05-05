@@ -22,9 +22,11 @@ As of now there are below options:
 
 It is based on nodjes and used few packages.
 
-| Package name | Link                                    |
-| ------------ | --------------------------------------- |
-| chalk        | https://www.npmjs.com/package/chalk     |
-| inquier      | https://www.npmjs.com/package/inquirer  |
-| cfonts       | https://www.npmjs.com/package/cfonts    |
-| commander    | https://www.npmjs.com/package/commander |
+| Package name    | Link                                          |
+| --------------- | --------------------------------------------- |
+| chalk           | https://www.npmjs.com/package/chalk           |
+| inquier         | https://www.npmjs.com/package/inquirer        |
+| cfonts          | https://www.npmjs.com/package/cfonts          |
+| commander       | https://www.npmjs.com/package/commander       |
+| chalk-animation | https://www.npmjs.com/package/chalk-animation |
+| terminal-link   | https://www.npmjs.com/package/terminal-link   |
