@@ -1,5 +1,6 @@
 const inquirer = require("inquirer");
 const chalk = require("chalk");
+const terminalLink = require("terminal-link");
 const resume = require("./data/resume.json");
 const welcome = require("./welcome");
 const animation = require("./animation");
@@ -25,20 +26,32 @@ function resumeHandler() {
       choices: [...Object.keys(resume), "Exit"]
     })
     .then(({ resumeField }) => {
-      if (resumeField === "Exit") {
-        animation("See you soon...");
-        return;
+      resumeField !== "Exit" &&
+        console.log("\n" + responseFieldColor(`${resumeField} :- \n`));
+      switch (resumeField) {
+        case "Exit":
+          animation("See you soon...");
+          return;
+        case "Contact Me":
+          Object.keys(resume["Contact Me"]).forEach(key => {
+            console.log(
+              chalk.yellow(
+                `${terminalLink(`${key}: `, resume["Contact Me"][key])}`
+              )
+            );
+          });
+          break;
+        default:
+          resume[`${resumeField}`].forEach(content =>
+            console.log(chalk.yellow(content))
+          );
       }
-      console.log("\n" + responseFieldColor(`${resumeField} :- \n`));
-      resume[`${resumeField}`].forEach(content =>
-        console.log(chalk.yellow.italic(content))
-      );
-      console.log(
-        responseFieldColor(
-          "________________________________________________________"
-        )
-      );
-      console.log();
+      resumeField !== "Exit" &&
+        console.log(
+          responseFieldColor(
+            "________________________________________________________\n"
+          )
+        );
       inquirer
         .prompt({
           type: "list",

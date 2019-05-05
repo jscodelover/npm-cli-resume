@@ -25,11 +25,11 @@
     "Multiple Game = using socket.io, Node.js"
   ],
   "Personal Interest": ["Reading", "Travelling", "Signing to music"],
-  "Contact Me": [
-    "GitHub: https://github.com/jscodelover",
-    "Codepen: https://codepen.io/jscodelover",
-    "LinkedIn: https://www.linkedin.com/in/jscodelover/",
-    "Medium: https://medium.com/@jscodelover",
-    "Twitter: https://twitter.com/jscodelover"
-  ]
+  "Contact Me": {
+    "GitHub": "https://github.com/jscodelover",
+    "Codepen": "https://codepen.io/jscodelover",
+    "LinkedIn": "https://www.linkedin.com/in/jscodelover/",
+    "Medium": "https://medium.com/@jscodelover",
+    "Twitter": "https://twitter.com/jscodelover"
+  }
 }
