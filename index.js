@@ -34,7 +34,11 @@ function resumeHandler() {
           return;
         case "Contact Me":
           Object.keys(resume["Contact Me"]).forEach(key => {
-            console.log(chalk.yellow(`${terminalLink(`${key}: `, resume["Contact Me"][key])}`));
+            console.log(
+              chalk.yellow(
+                `${key}: ${terminalLink(resume["Contact Me"][key], resume["Contact Me"][key])}`
+              )
+            );
           });
           break;
         default:
