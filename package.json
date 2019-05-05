@@ -1,5 +1,5 @@
 {
-  "name": "jsdev-resume",
+  "name": "jscodelover-resume",
   "version": "1.0.0",
   "description": "Creating a cli display resume ",
   "main": "index.js",
@@ -17,5 +17,9 @@
     "cfonts": "^2.4.3",
     "chalk": "^2.4.2",
     "inquirer": "^6.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-node": "^9.0.1"
   }
 }

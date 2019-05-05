@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const chalk = require("chalk");
-const resume = require("./resume.json");
+const resume = require("./data/resume.json");
 const welcome = require("./welcome");
 
 const resumeContextColor = chalk.bold.blueBright;
@@ -26,7 +26,7 @@ function resumeHandler() {
         console.log(chalk.red("\nSee you soon!!"));
         return;
       }
-      console.log("\n" + responseFieldColor(`${resumeField} :- `));
+      console.log("\n" + responseFieldColor(`${resumeField} :- \n`));
       resume[`${resumeField}`].forEach(content =>
         console.log(chalk.yellow.italic(content))
       );
